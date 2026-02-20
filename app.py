@@ -118,7 +118,7 @@ with tab1:
         prediction = model.predict(input_df)
 
         st.markdown(
-            f"<div class='prediction-card'>Estimated Car Price: ₹ {prediction[0]:,.2f}</div>",
+            f"<div class='prediction-card'>Estimated Car Price: $ {prediction[0]:,.2f}</div>",
             unsafe_allow_html=True
         )
 
